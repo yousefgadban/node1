@@ -1,0 +1,30 @@
+
+GET http://localhost:4000/api/olym/getAllPlayers
+
+###
+
+GET https://tender-bartik-0f3a45.netlify.app/api/olym/getAllPlayers
+
+###
+
+POST http://localhost:4000/api/olym/createPlayer
+Content-Type: application/json
+
+{
+    "name": "lalaaaa",
+    "age": 37,
+    "country": "isr"
+}
+
+###
+
+PUT http://localhost:4000/api/olym/updatePlayer/6190cbbc525a41488479878e
+Content-Type: application/json
+
+{
+    "jumps": [1,1,1]
+}
+
+###
+
+DELETE http://localhost:4000/api/olym/deletePlayer/6190cbbc525a41488479878e

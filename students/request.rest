@@ -1,0 +1,36 @@
+
+
+GET http://localhost:4000/
+
+###
+
+GET http://localhost:4000/getAllStudents
+
+
+###
+
+POST http://localhost:4000/createStudent
+Content-Type: application/json
+
+{
+    "name": "adeeb",
+    "age": 33,
+    "email": "test@test.com"
+}
+
+
+###
+
+DELETE http://localhost:4000/deleteStudent/618bd105796fef9bb37b585c
+
+
+###
+PUT http://localhost:4000/editStudent/618bce66796fef9bb37b5859
+Content-Type: application/json
+
+{
+    "name": "lllllllzzzzzzssssss",
+    "age": 35,
+    "email": "test@test.com"
+}
+

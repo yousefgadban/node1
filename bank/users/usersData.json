@@ -1,0 +1,24 @@
+[
+    {
+        "id": "lllp2e7akvwg5kmc",
+        "name": "yousef",
+        "email": "yousef@test.com",
+        "password": "yousef",
+        "balance": 35,
+        "isActive": true,
+        "role": "manager",
+        "accountNumber": "906582",
+        "avatar": "https://cdn.fakercloud.com/avatars/mirfanqureshi_128.jpg"
+    },
+    {
+        "id": "lllp2e5akvwg0qg5",
+        "name": "aaaaaa",
+        "email": "aaaaaa@test.com",
+        "password": "aaaaaa",
+        "balance": 30,
+        "isActive": false,
+        "role": "customer",
+        "accountNumber": "775761",
+        "avatar": "https://cdn.fakercloud.com/avatars/mirfanqureshi_128.jpg"
+    }
+]

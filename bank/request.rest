@@ -1,0 +1,19 @@
+GET http://localhost:4000/api/bank/bank
+
+###
+
+GET http://localhost:4000/api/users/login/aaaaaa@test.com/aaaaaa
+
+###
+
+POST http://localhost:4000/api/users/createUser
+Content-Type: application/json
+
+{
+    "name": "adeeb",
+    "email": "test@test.com",
+    "password": "12345678"
+}
+
+###
+GET http://localhost:4000/api/users/getAllUsers

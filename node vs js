@@ -1,0 +1,15 @@
+//
+Node vs JS:
+
+ 
+
+NodeJS allows Javascript code to run outside a browser, it is essentially an environment.
+Doesn't have the capability to add HTML tags, because it doesn't need to.
+NodeJS is essentially the V8 Javascript engine bundled with other useful libraries for I/O and networking.
+JS vs Node:
+
+ 
+
+Javascript is a programming language by itself.
+Javascript has the ability to interact with the DOM and HTML elements.
+Javascript (while being run in a browser) has alot of useful variables such as "document" that make interaction with the browser and it's services much easier

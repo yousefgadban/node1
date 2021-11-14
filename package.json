@@ -1,0 +1,32 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node olym/olym.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yousefgadban/node/issues"
+  },
+  "homepage": "https://github.com/yousefgadban/node#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.14",
+    "postman-request": "^2.88.1-postman.30",
+    "serverless-http": "^2.7.0",
+    "uniqid": "^5.4.0",
+    "validator": "^13.7.0",
+    "yargs": "^17.2.1"
+  }
+}
