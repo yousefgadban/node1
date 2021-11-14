@@ -24,4 +24,4 @@ app.use('/api/olym', olymRouter);
 mongoose.connect('mongodb+srv://yousef:qAkXwPk2DVscUk7h@cluster0.szbva.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}, () => {
     console.log('Connected to DB ');
 });
-app.listen(process.env.PORT ||4000)
+app.listen(process.env.PORT || 4000)

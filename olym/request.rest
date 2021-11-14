@@ -1,9 +1,12 @@
+GET http://localhost:4000/api/olym/test
+
+###
 
 GET http://localhost:4000/api/olym/getAllPlayers
 
 ###
 
-GET https://tender-bartik-0f3a45.netlify.app/api/olym/getAllPlayers
+GET https://yousef-node1.herokuapp.com//api/olym/getAllPlayers
 
 ###
 

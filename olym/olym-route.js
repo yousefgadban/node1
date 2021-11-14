@@ -83,3 +83,7 @@ router.delete('/deletePlayer/:id', (req, res) => {
 
     })
 });
+
+router.get('/test', (req, res) => {
+    res.send('test');
+});
