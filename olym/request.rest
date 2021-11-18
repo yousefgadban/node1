@@ -1,4 +1,4 @@
-GET http://localhost:4000/api/olym/test
+GET https://yousef-node1.herokuapp.com/api/olym/test
 
 ###
 
@@ -6,7 +6,18 @@ GET http://localhost:4000/api/olym/getAllPlayers
 
 ###
 
-GET https://yousef-node1.herokuapp.com//api/olym/getAllPlayers
+GET https://yousef-node1.herokuapp.com/api/olym/getAllPlayers
+
+###
+
+POST https://yousef-node1.herokuapp.com/api/olym/createPlayer
+Content-Type: application/json
+
+{
+    "name": "lalaaaa",
+    "age": 40,
+    "country": "isr"
+}
 
 ###
 

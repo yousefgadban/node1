@@ -1,0 +1,40 @@
+GET http://localhost:4000/api/lib/test
+
+###
+
+GET http://localhost:4000/api/lib/getAllBooks
+
+###
+
+GET http://localhost:4000/api/lib/getBook/6192175196b9d59fb8e1266e
+
+###
+
+POST http://localhost:4000/api/lib/createBook
+Content-Type: application/json
+
+{
+    "title": "book5",
+    "author": "author5",
+    "year": "2018",
+    "lang": "en",
+    "rating": 1
+}
+
+
+###
+
+PUT http://localhost:4000/api/lib/updateBook/61920e6a05e82f98fcdbc1bf
+Content-Type: application/json
+
+{
+    "title": "book3",
+    "author": "author3", 
+    "year": 2003,
+    "lang": "en",
+    "rating": 3.5
+}
+
+###
+
+DELETE http://localhost:4000/api/lib/deleteBook/61921226d6e380c3025fa0c9

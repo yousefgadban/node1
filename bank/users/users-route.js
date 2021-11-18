@@ -4,7 +4,9 @@ const users = require('./users.js');
 
 module.exports = router
 
- 
+ router.get('/test', (req, res) => {
+     users.test();
+ })
 
 router.post('/createUser', (req, res) => {
 
